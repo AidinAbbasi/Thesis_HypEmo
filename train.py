@@ -43,6 +43,7 @@ train_weighted_f1, valid_weighted_f1, test_weighted_f1 = [], [], []
 total_train_time = 0
 total_test_time = 0
 for i in range(args.epochs):
+    logging.info(f"Training started for epoch {i+1} form {args.epochs} epochs")
     start_time = time.time()
     train_log = gm.train_step(i)
     end_time = time.time()
