@@ -123,3 +123,5 @@ INFO:root:[best] valid | acc: 0.6570, f1: 0.6613
  test | acc: 0.6488, f1: 0.6581
 INFO:root:Using device cpu, seed=1234, training on go_emotion dataset.
 INFO:root:Training started for epoch 1 form 20 epochs
+INFO:root:Using device cpu, seed=1234, training on go_emotion dataset.
+INFO:root:Training started for epoch 1 form 20 epochs
